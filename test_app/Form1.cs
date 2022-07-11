@@ -16,5 +16,15 @@ namespace test_app
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.textBox1.Text = "こんにちは";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.textBox1.Text = "こんばんは";
+        }
     }
 }
